@@ -6,7 +6,7 @@ class Solution {
         }
         int maxOdd = Integer.MIN_VALUE;
         int minEven = Integer.MAX_VALUE;
-        for(int count : map.values()){
+        for(int count : map.values()){ 
           if(count % 2 == 0) {
             minEven = Math.min(minEven, count);
           } else {
